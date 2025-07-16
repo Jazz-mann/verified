@@ -44,6 +44,42 @@ nav a {
   padding: 40px;
 }
 
+.banner {
+  background: linear-gradient(to right, #ffe9d2, #ffcab0);
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 40px 20px 0px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.banner-content h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #d35400;
+}
+
+.banner-content p {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.banner-btn {
+  background-color: #fa8f6e;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.banner-btn:hover {
+  background-color: #e67355;
+}
+
+
 .search-bar {
   display: flex;
   margin-bottom: 30px;
